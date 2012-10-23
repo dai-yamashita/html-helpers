@@ -1,0 +1,21 @@
+{
+    "name": "html-helpers",
+    "version": "0.0.1",
+    "description": "HTML code generation, designed primarily for use as view helpers",
+    "keywords": [ "html", "views", "helpers" ],
+    "author": "Dominic Barnes",
+    "license": "MIT",
+    "main": "index.js",
+    "dependencies": {
+        "lodash": "*"
+    },
+    "devDependencies": {
+        "should": "*"
+    },
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "mocha"
+    }
+}
