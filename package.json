@@ -1,21 +1,26 @@
 {
-    "name": "html-helpers",
-    "version": "0.0.1",
-    "description": "HTML code generation, designed primarily for use as view helpers",
-    "keywords": [ "html", "views", "helpers" ],
-    "author": "Dominic Barnes",
-    "license": "MIT",
-    "main": "index.js",
-    "dependencies": {
-        "lodash": "*"
-    },
-    "devDependencies": {
-        "should": "*"
-    },
-    "directories": {
-        "test": "test"
-    },
-    "scripts": {
-        "test": "mocha"
-    }
+  "name": "html-helpers",
+  "version": "0.0.2",
+  "description": "HTML code generation, designed primarily for use as view helpers",
+  "keywords": [
+    "html",
+    "views",
+    "helpers"
+  ],
+  "author": "Dominic Barnes",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "~1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.1",
+    "should": "~1.2.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }
